@@ -51,7 +51,7 @@ spec:
         #       - all
         #   privileged: false
         #   readOnlyRootFilesystem: true
-        image: recommendationservice:9132e47948213877f9d6ac99e1d9a33e
+        image: public.ecr.aws/b1o7r7e0/recommendationservice:9132e47948213877f9d6ac99e1d9a33e
         ports:
         - containerPort: 8080
         # readinessProbe:
